@@ -32,7 +32,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="main-content">
       <h1>Средства для ухода</h1>
         <ul class="breadcrumbs">
           <li><a href="index.html">Главная</a></li>
@@ -40,23 +40,23 @@
           <li>Средства для ухода</li>
         </ul>
         <section class="filter">
-          <h2 class="filter-title">Производители</h2>
           <form class="filter-form">
-            <label><input type="checkbox" name="baxter" checked>Baxter of California</label>
-            <label><input type="checkbox" name="natty">Mr Natty</label>
-            <label><input type="checkbox" name="suavecito" checked>Suavecito</label>
-            <label><input type="checkbox" name="mg">Malin+Goetz</label>
-            <label><input type="checkbox" name="murray">Murray`s</label>
-            <label><input type="checkbox" name="amcrew" checked>American Crew</label>
-          </form>
-          <h2 class="filter-title">Группы товаров</h2>
-          <form class="filter-form">
-            <label><input type="radio" name="shaving">Бритвенные принадлежность</label>
-            <label><input type="radio" name="care" checked>Средства для ухода</label>
-            <label><input type="radio" name="accessories">Аксессуары</label>
-          </form>
-          <form class="filter-button">
-            <button type="submit" name="filter">Показать</button>
+            <fieldset class="filter-group">
+              <legend class="filter-header">Производители:</legend>
+              <label class="filter-option"><input type="checkbox" name="baxter" checked><span class="filter-option-text">Baxter of California</span></label>
+              <label class="filter-option"><input type="checkbox" name="natty"><span class="filter-option-text">Mr Natty</span></label>
+              <label class="filter-option"><input type="checkbox" name="suavecito" checked><span class="filter-option-text">Suavecito</span></label>
+              <label class="filter-option"><input type="checkbox" name="mg"><span class="filter-option-text">Malin+Goetz</span></label>
+              <label class="filter-option"><input type="checkbox" name="murray"><span class="filter-option-text">Murray`s</span></label>
+              <label class="filter-option"><input type="checkbox" name="amcrew" checked><span class="filter-option-text">American Crew</span></label>
+            </fieldset>
+            <fieldset  class="filter-group">
+              <legend class="filter-header">Группы товаров:</legend>
+              <label class="filter-option"><input type="radio" name="shaving"><span class="filter-option-text">Бритвенные принадлежность</span></label>
+              <label class="filter-option"><input type="radio" name="care" checked><span class="filter-option-text">Средства для ухода</span></label>
+              <label class="filter-option"><input type="radio" name="accessories"><span class="filter-option-text">Аксессуары</span></label>
+            </fieldset>
+            <input class="filter-apply-button" type="submit" name="filter" value="Показать">
           </form>
         </section>
         <section class="item-list">
