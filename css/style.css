@@ -1,24 +1,32 @@
-    body {
-    	font-size: 14px;
-    	line-height: 24px;
-    	color: #000000;
-    	font-weight: normal;
-    	font-family: 'PT Sans Narrow', sans-serif;
-    }
-    h2 {
-    	font-size: 30px;
-    	line-height: 42px;
-    	color: #000000;
-    	font-weight: normal;
-    	font-family: 'PT Sans Narrow', sans-serif;
-    	text-transform: uppercase;
-     }
-     b.features-name {
-    	font-size: 30px;
-    	line-height: 42px;
-    	color: #f7f4f1;
-    	font-weight: normal;
-    	font-family: 'PT Sans Narrow', sans-serif;
-    	text-transform: uppercase;
-
-     }
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: normal;
+	font-family: 'PT Sans Narrow', sans-serif;
+/*	background-color: #000000;*/
+}
+h2, h3,  b.features-name {
+	font-size: 30px;
+	line-height: 42px;
+	color: #000000;
+	font-weight: normal;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+ }
+/* b.features-name {
+	color: #f7f4f1;
+ }*/
+h3 {
+	font-size: 24px;
+	line-height: 30px;	
+}
+p {
+	font-size: 14px;
+	line-height: 24px;
+/*	color: f7f4f1;*/
+	color: #000000;
+	font-weight: normal;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+ }     
