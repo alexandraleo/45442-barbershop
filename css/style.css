@@ -36,7 +36,7 @@ p {
 	padding: 0 10px;
 	outline: 2px solid red;
 }
-div, nav, section,h2 {
+div, nav, section, h2, article {
 	outline: 1px dashed green;
 }
 .main-navigation {
@@ -92,6 +92,7 @@ div, nav, section,h2 {
 	float: right;
 	width: 300px;
 }
+										/*Футер*/
 .main-footer {
 	margin-top: 65px;
 	padding-top: 60px;
@@ -111,6 +112,7 @@ div, nav, section,h2 {
 	float: right;
 	width: 140px;
 }
+										/*Страница товара*/
 .gallery {
 	float: left;
 	width: 460px;
@@ -122,11 +124,36 @@ div, nav, section,h2 {
 }
 .small-image {
 	float: left;
-	margin-right: 15px;
+	margin-right: 20px;
 }
-.gallery: last-child {
+.small-image:last-child {
 	margin-right: 0;
 }
 .main-image, .small-image {
 	box-shadow: 0px 0px 15px 0px #000101;
+	margin-bottom: 20px;
+}
+										/*Каталог*/
+.filter {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+.item-list {
+	float: left;
+	width: 700px;
+}
+.item-card {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.item-card:nth-child(3n) {
+	margin-right: 0px;
+}
+.page-switch {
+	float:left;
+	width: 220px;
+	margin-top: 25px;
 }
