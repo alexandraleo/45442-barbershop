@@ -113,6 +113,9 @@ div, nav, section, h2, article {
 	width: 140px;
 }
 										/*Страница товара*/
+.second-navigation {
+	margin-bottom: 50px;
+}
 .gallery {
 	float: left;
 	width: 460px;
