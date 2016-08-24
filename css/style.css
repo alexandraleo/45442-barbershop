@@ -7,7 +7,7 @@ body {
 	font-family: 'PT Sans Narrow', 'Arial', sans-serif;
 	color: #ffffff;
 	text-transform: uppercase;
-  	background: #000000 url(img/body-bg.jpg) no-repeat center top;
+  	background: #000000 url("../img/bg.jpg") no-repeat center top;
 }
 h2, h3,  b.features-name {
 	font-size: 30px;
