@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <div class="container clearfix">
         <nav class="main-navigation">
-          <a href="index.html"><img src="img/logo-header.png" alt="На главную страницу" width="110" height="25"></a>
+          <a class="header-logo" href="index.html"><img src="img/logo-header.png" alt="На главную страницу" width="110" height="25"></a>
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -18,10 +20,10 @@
               <a href="#">Новости</a>            
             </li>
             <li>
-              <a href="#">Прайс-лист</a>
+              <a href="price.html">Прайс-лист</a>
             </li>
-            <li>
-              <a href="#">Магазин</a>
+            <li   class="active">
+              <a>Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -33,14 +35,14 @@
         </div>
       </div>
     </header>
-    <main class="main-content">
+    <main class="main-content pages">
       <div class="container clearfix">
         <div class="second-navigation">
           <h2>Средства для ухода</h2>
             <ul class="breadcrumbs">
               <li><a href="index.html">Главная</a></li>
               <li><a href="#">Магазин</a></li>
-              <li>Средства для ухода</li>
+              <li class="current">Средства для ухода</li>
             </ul>
          </div> 
           <section class="filter">
@@ -66,49 +68,49 @@
           <section class="item-list">
             <article class="item-card">
               <a href="catalog-item.html"><img src="img/ness-baxter.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»"></a>
-              <a href="catalog-item.html">Набор для путешествий<br>
+              <a class="item-card-name" href="catalog-item.html">Набор для путешествий<br>
                             <span class="name-uppercase">«Baxter of California»</span></a>
-              <p class="item-price">2900 РУБ.</p>
-              <button type="button">Купить</button>
+              <div class="price-wrap"><p class="item-price">2900 РУБ.</p>
+              <a class="btn">Купить</a></div>
             </article>
             <article class="item-card">
               <a href="#"><img src="img/con-baxter.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»"></a>
-              <a href="#">Увлажняющий кондиционер<br>
+              <a  class="item-card-name" href="#">Увлажняющий кондиционер<br>
                           <span class="name-uppercase">«Baxter of California»</span></a>
-              <p class="item-price">750 РУБ.</p>
-              <button type="button">Купить</button>
+              <div class="price-wrap"><p class="item-price">750 РУБ.</p>
+              <a class="btn">Купить</a></div>
             </article>
             <article class="item-card">
               <a href="#"><img src="img/gel-suavecito.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»"></a>
-              <a href="#">Гель для волос<br>
+              <a  class="item-card-name"  href="#">Гель для волос<br>
                           <span class="name-uppercase">«SUAVECITO»</span></a>
-              <p class="item-price">290 РУБ.</p>
-              <button type="button">Купить</button>
+              <div class="price-wrap"><p class="item-price">290 РУБ.</p>
+              <a class="btn">Купить</a></div>
             </article>
             <article class="item-card">
               <a href="#"><img src="img/clay-crew.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»"></a>
-              <a href="#">Глина для укладки волос<br>
+              <a class="item-card-name" href="#">Глина для укладки волос<br>
                           <span class="name-uppercase">«American crew»</span></a>
-              <p class="item-price">500 РУБ.</p>
-              <button type="button">Купить</button>
+              <div class="price-wrap"><p class="item-price">500 РУБ.</p>
+              <a class="btn">Купить</a></div>
             </article>
             <article class="item-card">
               <a href="#"><img src="img/gel-crew.jpg" width="220" height="165" alt="Гель для волос «AMERICAN CREW»"></a>
-              <a href="#">Гель для волос<br>
+              <a class="item-card-name" href="#">Гель для волос<br>
                             <span class="name-uppercase">«AMERICAN CREW»</span></a>
-              <p class="item-price">300 РУБ.</p>
-              <button type="button">Купить</button>
+              <div class="price-wrap"><p class="item-price">300 РУБ.</p>
+              <a class="btn">Купить</a></div>
             </article>
             <article class="item-card">
               <a href="#"><img src="img/shave-baxter.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»"></a>
-              <a href="#">Набор для бритья<br>
+              <a class="item-card-name" href="#">Набор для бритья<br>
                             <span class="name-uppercase">«Baxter of California»</span></a>
-              <p class="item-price">3900 РУБ.</p>
-              <button type="button">Купить</button>
+              <div class="price-wrap"><p class="item-price">3900 РУБ.</p>
+              <a class="btn">Купить</a></div>
             </article>
-            <div class="page-switch clearfix">
+            <div class="page-switch">
               <a href="#">1</a>
-              <a>2</a>
+              <a class="opened">2</a>
               <a href="#">3</a>
               <a href="#">4</a>
             </div>

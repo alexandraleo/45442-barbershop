@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+  <body  class="inner-page">
     <header class="main-header">
       <div class="container clearfix">
         <nav class="main-navigation">
-          <a href="index.html"><img src="img/logo-header.png" alt="На главную страницу" width="110" height="25"></a>
+          <a class="header-logo" href="index.html"><img src="img/logo-header.png" alt="На главную страницу" width="110" height="25"></a>
           <ul>
             <li>
               <a href="index.html">Информация</a>
@@ -18,10 +20,10 @@
               <a href="#">Новости</a>            
             </li>
             <li>
-              <a href="#">Прайс-лист</a>
+              <a href="price.html">Прайс-лист</a>
             </li>
-            <li>
-              <a href="catalog.html">Магазин</a>
+            <li  class="active">
+              <a>Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -41,7 +43,7 @@
               <li><a href="index.html">Главная</a></li>
               <li><a href="#">Магазин</a></li>
               <li><a href="catalog.html">Средства для ухода</a></li>
-              <li>Набор для путешествий «Baxter of California»</li>
+              <li class="current">Набор для путешествий «Baxter of California»</li>
             </ul>
          </div> 
           <section class="gallery">
